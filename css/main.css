@@ -1,0 +1,106 @@
+.navbar {
+	background: #F97300;
+}
+
+.nav-link, .navbar-brand {
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.nav-link {
+	margin-right: 1em !important;
+}
+
+.nav-link:hover {
+
+	background: #f4f4f4;
+	color: #f97300;
+}
+
+.navbar-collapse {
+	justify-content: flex-end;
+}
+
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*header style*/
+.header {
+	position: relative;
+	background-image: url("../images/headerback1.jpg");
+	background-size: cover;
+  	background-position: center;
+}
+
+.overlay{
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0.5);
+}
+
+.description {
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding: 2em;
+}
+
+.description h1 {
+	color: #F97300;
+}
+
+.description p {
+	color: #666;
+	font-size: 1.25rem;
+	width: 50%;
+	line-height: 1.5;
+}
+
+.description button {
+	background: #F97300;
+	border: 1px solid #f97300;
+	color: #fff;
+}
+/*about*/
+
+.about h1 {
+	color: #f97300;
+	margin: 2em;
+
+}
+
+.about {
+	margin: 2rem 0;
+	padding: 1rem;
+	position: relative;
+}
+
+.about img {
+	border-radius: 50%;
+}
+
+.about span {
+	color: #666;
+	display: block;
+	position: absolute;
+	left: 10rem;
+	margin-top: 0.5rem;
+}
+
+.about .about-my {
+	padding: 2rem;
+	border-left: .25rem solid #10828C;
+}
+
+.about h3 {
+	color: #157300;
+}
+
+.about .about-me p {
+	line-height: 1.5;
+	color: #666
+}
